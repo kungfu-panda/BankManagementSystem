@@ -1,10 +1,10 @@
-from handlers import homepage
-from handlers import loginpage
+from handlers import home
+from handlers import authenticate
 
 CURRENT_SLIDE = "HOME"
 SLIDES = {
-    "HOME":homepage.handler,
-    "LOGIN":loginpage.handler
+    "HOME":home.handler,
+    "AUTHENTICATE":authenticate.handler
 }
 
 while True:
