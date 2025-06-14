@@ -1,9 +1,8 @@
 import termcolor
-import os
 import survey
 
 def login_page_main_menu() -> None:
-    os.system("cls")
+
     print("""
 ---------------------------------------------------------
 | ▄▀█ █░█ ▀█▀ █░█ █▀▀ █▄░█ ▀█▀ █ █▀▀ ▄▀█ ▀█▀ █ █▀█ █▄░█ |

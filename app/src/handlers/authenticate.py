@@ -8,5 +8,5 @@ def handler() -> str:
     elif result==1:
         return "Signup"
     elif result==2:
-        return "Back"
+        return "BACK"
     return "err"
